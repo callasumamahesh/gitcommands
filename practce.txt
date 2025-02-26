@@ -1,0 +1,6 @@
+Git Famous Commands
+
+
+-to add the url to Git
+    git remote add origin giturl
+    git remote -v
