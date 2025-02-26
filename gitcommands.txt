@@ -10,4 +10,13 @@ Git Famous Commands
 -create new branch
     git branch branch-name
     git branch = show all branches
+    git checkout branch-name = change branch
     
+
+git add . will move the files from not staged to staged
+git restore --staged . will move the files from staged to not staged
+
+git commit will move from stage to commit
+git reset --soft HEAD~1 => will just remove the commit and the changed files will be in commit state only
+git reset --mixed HEAD~1 => will remove the commit and changed files will be moved to not staged
+git reset --hard HEAD~1 => will remove the commit and also from non-staged and also from your local too.
