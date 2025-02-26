@@ -1,0 +1,13 @@
+Git Famous Commands
+
+-changing author email
+
+
+-to add the url to Git
+    git remote add origin giturl
+    git remote -v
+
+-create new branch
+    git branch branch-name
+    git branch = show all branches
+    
